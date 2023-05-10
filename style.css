@@ -1,0 +1,41 @@
+/* début du HTML */
+html {
+    height: 500em;
+    width: 80em;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+
+@media screen and (max-width: 480px) {
+    /* Mettre ici les différentes règles concernées */
+    }
+    
+
+/* fin du HTML */
+-----------------------------------------------
+/* début du header */
+
+.img-paysage {
+    background-image: url(image/coreepaysage.jpg);
+    height: 90em;
+    background-repeat: no-repeat;
+}
+ .img-sakura {
+    height: 10em;
+    width: 77em;
+    margin: 2%;
+ }
+
+ h1 {
+margin-left: 25%;
+margin-right: 25%;
+ }
+
+/* fin du header */
+-------------------------------------------------
+/* début de l'avatar */
+
+.profile {
+    justify-content: flex-end;
+}
